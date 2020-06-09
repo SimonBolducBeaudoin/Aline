@@ -6,7 +6,7 @@
 //Python Binding and Time_Quad class instances.
 PYBIND11_MODULE(Aline, m)
 {
-    m.doc() = "C++ implemented interpolations.";
+    m.doc() = "C++ implemented function for treatment of oct signal.";
 	init_Aline(m);
 }
 
