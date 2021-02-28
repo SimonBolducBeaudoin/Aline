@@ -7,7 +7,7 @@ EXTERNAL_OBJ = $(tempo1) $(tempo2) $(tempo3) $(tempo4)
 TARGET_NAME = Aline
 TARGET_STATIC = $(TARGET_NAME).a
 PYLIB_EXT = $(if $(filter $(OS),Windows_NT),.pyd,.so)
-TARGET_PYLIB = ../Python/$(TARGET_NAME)$(PYLIB_EXT)
+TARGET_PYLIB = ../../Python_2_7/lib/$(TARGET_NAME)$(PYLIB_EXT)
 
 IDIR = includes
 ODIR = obj
